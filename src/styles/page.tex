@@ -1,5 +1,21 @@
-\newcommand{\NameText}{...}
+% -----------------------------------------------------------------------------
+% Page Layout System
+%
+% Implements the layout specification defined in:
+% docs/002-page-layout.md
+% -----------------------------------------------------------------------------
 
-\newcommand{\SectionTitle}{...}
+\usepackage[a4paper, top=1.7cm, bottom=1.7cm, left=2cm, right=2cm]{geometry}
 
-\newcommand{\BodyText}{...}
+% -----------------------------------------------------------------------------
+% Global layout behavior
+% -----------------------------------------------------------------------------
+
+% No indentation (clean CV style)
+\setlength{\parindent}{0pt}
+
+% Base vertical rhythm (simple and predictable)
+\setlength{\parskip}{6pt}
+
+% Optional: slightly tighter line spacing for CV density
+\linespread{1.05}
