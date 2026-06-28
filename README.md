@@ -1,2 +1,5 @@
-# engineering-resume
-A resume built like software. Modular, maintainable and ATS-friendly.
+# Engineering Resume
+
+A resume built like software.
+
+🚧 Work in progress.

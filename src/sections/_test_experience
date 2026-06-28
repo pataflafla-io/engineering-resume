@@ -1,0 +1,17 @@
+\SectionTitle{Experience}
+
+\ExperienceEntry
+    {ACME Corporation}
+    {Senior Software Engineer}
+    {2020 -- Present}
+    {Designed and implemented distributed systems...}
+    {Java, Spring Boot, Kafka, Kubernetes}
+
+\vspace{0.8em}
+
+\ExperienceEntry
+    {Example Tech}
+    {Software Engineer}
+    {2017 -- 2020}
+    {Worked on backend services...}
+    {Go, PostgreSQL, Docker}

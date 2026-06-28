@@ -1,0 +1,31 @@
+{\Name
+Javier Sebastián
+}
+
+{\ProfessionalTitle
+Frontend Engineer
+}
+
+{\SectionTitle
+Test Section
+}
+
+{\CompanyName
+ACME Corporation
+}
+
+{\JobTitle
+Senior Software Engineer
+}
+
+{\Date
+2026-01
+}
+
+{\Body
+This is a test paragraph to validate that the typography system works correctly across different semantic styles. The text should inherit the correct font size, weight and spacing rules defined in components/typography.tex.
+}
+
+{\Technologies
+LaTeX, LuaLaTeX, Git, Distributed Systems
+}
