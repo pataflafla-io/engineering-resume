@@ -1,0 +1,79 @@
+% -----------------------------------------------------------------------------
+% Typography System
+%
+% Implements the semantic typography system defined in:
+% docs/001-typography.md
+%
+% Typography commands modify the current text style.
+% They do not receive arguments and are intended to be used inside a local group.
+%
+% Example:
+%
+%   {\SectionTitle Experience}
+%
+% -----------------------------------------------------------------------------
+
+% -----------------------------------------------------------------------------
+% Name
+% -----------------------------------------------------------------------------
+
+\newcommand{\Name}{
+    \fontsize{22}{24}\selectfont
+    \bfseries
+}
+
+% -----------------------------------------------------------------------------
+% Header
+% -----------------------------------------------------------------------------
+
+\newcommand{\ProfessionalTitle}{
+    \fontsize{11}{14}\selectfont
+    \fontseries{sb}\selectfont
+}
+
+\newcommand{\Contact}{
+    \fontsize{9}{12}\selectfont
+    \normalfont
+}
+
+% -----------------------------------------------------------------------------
+% Section Titles
+% -----------------------------------------------------------------------------
+
+\newcommand{\SectionTitle}{
+    \fontsize{12}{14}\selectfont
+    \fontseries{sb}\selectfont
+}
+
+% -----------------------------------------------------------------------------
+% Professional Experience
+% -----------------------------------------------------------------------------
+
+\newcommand{\CompanyName}{
+    \fontsize{11}{14}\selectfont
+    \fontseries{sb}\selectfont
+}
+
+\newcommand{\JobTitle}{
+    \fontsize{10}{14}\selectfont
+    \fontseries{sb}\selectfont
+}
+
+\newcommand{\Date}{
+    \fontsize{9}{12}\selectfont
+    \normalfont
+}
+
+% -----------------------------------------------------------------------------
+% Body
+% -----------------------------------------------------------------------------
+
+\newcommand{\Body}{
+    \fontsize{10}{14}\selectfont
+    \normalfont
+}
+
+\newcommand{\Technologies}{
+    \fontsize{9}{12}\selectfont
+    \normalfont
+}
