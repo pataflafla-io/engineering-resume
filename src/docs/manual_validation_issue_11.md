@@ -1,5 +1,5 @@
 
-# Manual Validation — Issue XX (Feature Name)
+# Manual Validation — Issue 11 (Header)
 
 ## Objective
 
